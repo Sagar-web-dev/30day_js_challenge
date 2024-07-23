@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10 Event Handling task</title>
+</head>
+<body>
+    
+    <!-- Activity 1: Basic Event Handling -->
+
+<!-- Task 1: Add a click event listener to a button that changes the test content of a paragraph  -->
+
+
+  <div>
+    <button id="btn" style="width: 150px; height: 40px ; border-radius: 50px;">Change content </button>
+  </div>
+
+<!-- Task 2: Add a double-click event listener to an image that toggles its visibility. -->
+
+<div>
+    <img id="img" style="width: 160px; height: 160px ; object-fit: cover;" src="https://images.unsplash.com/photo-1719937206667-ac87c15ad3e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" alt="">
+</div>
+
+<!-- Activity 2: Mouse Events -->
+
+<!-- Task 3: Add a mouseover event listener to an element that changes its background color. -->
+<!-- Task 4: Add a mouseout event listener to an element that resets its background color -->
+   <div id="bgChange" style="width: 100px; height: 100px; background-color: aquamarine;"></div>
+
+
+   <!-- Activity 3: Keyboard Events -->
+
+<!-- Task 5: Add a keydown event listener to an input field that logs the key pressed to the console. -->
+
+<input id="text-input" type="text" placeholder="Enter your fullname">
+
+
+<!-- Task 6: Add a keyup event listener to an input field that displays the current value in a paragraph. -->
+
+<input id="up-input" type="text" placeholder="Enter your fullname">
+<p id="para"></p>
+
+
+<!-- Activity 4: Form Events -->
+
+<!-- Task 7: Add a submit event listener to a form that prevents the default submission and logs the form data to the console. -->
+
+<form id="form" action="">
+    <input type="text" name="firstName" placeholder="Enter your first name">
+    <input type="text" name="lastName" placeholder="Enter your last name">
+    <input type="email" name="email" placeholder="Enter your email">
+    <input type="submit" value="submit">
+</form>
+
+
+
+ <!-- Task 8 : Add a change event, listener to a select dropdown that displays the selected value in a paragraph. -->
+
+ <select id="items">
+    <option value="Apple">Apple</option>
+    <option value="Banana">Banana</option>
+    <option value="guvua">guvua</option>
+</select>
+<p id="para"></p>
+
+
+<!-- Activity 5: Event Delegation -->
+
+<!-- Task 9: Add a click event listener to a list that logs the text content of the clicked list item using event delegation. -->
+
+
+<ul id="listItem">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+</ul>
+
+<!-- Task 10: Add an event listener to a parent element that listens for events from dynamically added child elements. -->
+<div class="parent"></div>
+<button id="childAdd">addChild</button>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
